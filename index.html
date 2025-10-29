@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sola Fridykkeklubb – Midlertidig nettside</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --hav: #074256;
+      --sand: #FFFBF6;
+      --hvit: #FFFFFF;
+      --fjord: #D7E1E4;
+      --tang: #075650;
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: "Rubik", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color: var(--hav);
+      background: var(--sand);
+      line-height: 1.6;
+    }
+    a {
+      color: var(--tang);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    header.hero {
+      background: var(--hav);
+      color: var(--hvit);
+      display: grid;
+      place-items: center;
+      padding: 72px 16px;
+    }
+    .hero .logo {
+      width: min(720px, 72vw);
+      height: auto;
+    }
+    .container {
+      max-width: 1000px;
+      padding: 32px 20px 64px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: clamp(26px, 3.6vw, 40px);
+      margin: 12px 0 8px;
+      line-height: 1.25;
+    }
+    @media (min-width: 720px) {
+      h1.nowrap { white-space: nowrap; }
+    }
+    p.lead {
+      font-size: clamp(17px, 2.4vw, 18.5px);
+      margin-bottom: 24px;
+    }
+    ul.nice {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 14px;
+    }
+    ul.nice li {
+      display: grid;
+      grid-template-columns: 28px 1fr;
+      gap: 12px;
+      align-items: start;
+      background: white;
+      border: 1px solid var(--fjord);
+      border-radius: var(--radius);
+      padding: 14px 16px;
+      box-shadow: 0 6px 20px rgba(7,66,86,0.05);
+    }
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 999px;
+      background: var(--tang);
+      margin-top: 6px;
+      box-shadow: 0 0 0 5px rgba(7,86,80,0.12);
+      flex: none;
+    }
+    .item-text {
+      min-width: 0;
+      white-space: normal;
+      overflow-wrap: anywhere;
+      word-break: normal;
+    }
+    section.card {
+      background: white;
+      border: 1px solid var(--fjord);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      margin-top: 40px;
+      box-shadow: 0 6px 24px rgba(7,66,86,0.06);
+    }
+    footer {
+      border-top: 1px solid var(--fjord);
+      margin-top: 48px;
+      padding: 18px 20px 40px;
+      text-align: center;
+      font-size: 14px;
+      color: #35535f;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <img src="sola_fridykkeklubb_logo_hvit.svg" alt="Sola Fridykkeklubb" class="logo" />
+  </header>
+
+  <main class="container">
+    <h1 class="nowrap">Nye nettsider kommer snart!</h1>
+    <p class="lead">I mellomtiden kan du finne den viktigste informasjonen fra oss nedenfor.</p>
+
+    <ul class="nice">
+      <li><span class="dot"></span><div class="item-text">Ønsker du å melde deg inn i klubben? Gå til <a href="https://medlemskap.nif.no/788071">vår innmeldingsside</a>.</div></li>
+      <li><span class="dot"></span><div class="item-text">Ønsker du å leie fridykkerutstyr? Fyll ut <a href="https://forms.office.com/e/R3NaTXS5RX">dette skjemaet</a> senest uka før du ønsker å leie, så tar vi kontakt.</div></li>
+      <li><span class="dot"></span><div class="item-text">Vårt offentlig tilgjengelige dokumentarkiv kan åpnes ved å benytte <a href="https://solafridykkeklubb.sharepoint.com/:f:/g/EkKVcORgMphErDfsND9NNF0BYTOxFHmJier0xyzkZ9fQ3Q?e=WkzU3g">denne lenken</a>.</div></li>
+      <li><span class="dot"></span><div class="item-text">Følg oss gjerne på <a href="https://www.facebook.com/solafridykkeklubb">Facebook</a> og <a href="https://www.instagram.com/sola_fridykkeklubb/">Instagram</a>.</div></li>
+      <li><span class="dot"></span><div class="item-text">Medlemmer kan også følge vår Spond-gruppe og vår interne Facebook-gruppe. (Kontakt klubben på <a href="mailto:kontakt@solafridykkeklubb.no">e-post</a> for detaljer.)</div></li>
+      <li><span class="dot"></span><div class="item-text">Har du spørsmål som ikke er besvart på denne siden, så kontakt oss via <a href="mailto:kontakt@solafridykkeklubb.no">e-post</a>.</div></li>
+    </ul>
+
+    <section class="card">
+      <h2>Om Sola Fridykkeklubb</h2>
+      <p>Klubben vår ble grunnlagt 27. januar 2015, med en visjon om å skape et felles fridykkermiljø i området. Vi ønsker å formidle gleden i vannet uansett hvilket nivå en er på og gi medlemmene våre fantastiske opplevelser under vann. Vi er opptatt av å bidra til å bygge et sunt og ansvarlig fridykkermiljø. Vi har medlemmer i alle aldre og vi har et godt miljø.</p>
+      <p>Vi kan tilby trening i basseng, organiserte turer og arrangementer, kurs og nettverksbygging. Klubben har flere utdannede og kunnskapsrike instruktører som kan bistå en til en eller i grupper. Om du er interessert i å prøve fridykking, tilbyr vi utleie av fridykkerutstyr til både barn og voksne.</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Sola Fridykkeklubb · Org.nr. 914897084
+  </footer>
+</body>
+</html>
